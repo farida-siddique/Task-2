@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.windowsreport.com/wp-content/uploads/2017/12/christmas-live-wallpaper.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #744646;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 2em;
+}
+form {
+    margin-bottom: 20px;
+}
+#todo-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #170c55;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.large-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #170c55;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.large-button:hover {
+    background-color: #e0e0e0;
+}
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth transition for size change */
+}
+.todo-item.large {
+    font-size: 24px; /* Increase font size */
+    padding: 20px;   /* Increase padding */
+}
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: #faf6f6;
+}
